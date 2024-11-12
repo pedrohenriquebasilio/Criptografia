@@ -50,11 +50,11 @@ A aplicação fornece os seguintes endpoints RESTful:
 - **Descrição**: Cria uma nova transação, criptografando os campos sensíveis antes de salvar.
 - **Corpo da Requisição**:
   ```json
- " {
+  {
     "userDocument": "string",
     "CreditCardToken": "string",
     "value": long
-  }"
+  }
   ```
 - **Resposta**: `200 OK` em caso de sucesso, sem corpo de resposta.
 - **Exemplo**:
